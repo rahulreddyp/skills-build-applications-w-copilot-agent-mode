@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-olt&nb4#%+q8pp0*govs8xtx%6%4-4%3ql65e(zhj-&zd$)&cw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Allow host access to Codespace URL and localhost
+ALLOWED_HOSTS = ['congenial-yodel-9q9xxg4g4r9h97rw-8000.app.github.dev', 'localhost']
 
 
 # Application definition
